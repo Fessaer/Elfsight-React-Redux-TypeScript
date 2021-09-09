@@ -1,8 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
-import * as UserActionCreators from './user';
-import * as TodoActionCreators from './todo';
+import * as RickActionCreators from './rick';
 
 export default {
-  ...UserActionCreators,
-  ...TodoActionCreators,
+  ...RickActionCreators,
 }

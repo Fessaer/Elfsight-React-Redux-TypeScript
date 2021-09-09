@@ -1,14 +1,14 @@
 import React from 'react';
-import { TodoList } from './components/TodoList';
-import UserList from './components/UserList';
+import { FilterCharacters } from './components/FilterCharacters';
+import { RickRender } from './components/RickRender';
+
 
 
 const App: React.FC = () => {
   return (
     <div>
-      <UserList />
-      <hr/>
-      <TodoList />
+      <FilterCharacters />
+      <RickRender />
     </div>
   )
 }
